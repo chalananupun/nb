@@ -12,7 +12,8 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
-        maven { url 'https://jitpack.io' }
+        maven{ url("https://repo.gradle.org/gradle/libs-releases/") }
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "nb_boiler_v2"
