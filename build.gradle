@@ -6,6 +6,23 @@ plugins {
 }
 
 //buildscript {
+//    dependencyResolutionManagement {
+//        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//        repositories {
+//            google()
+//            mavenCentral()
+//            jcenter() // Warning: this repository is going to shut down soon
+//            maven { url "https://jitpack.io" }
+//        }
+//    }
+//}
+//plugins {
+//    id 'com.android.application' version '7.4.2' apply false
+//    id 'com.android.library' version '7.4.2' apply false
+//    id 'maven-publish'
+//}
+
+//buildscript {
 //    repositories {
 //        google()
 //        mavenCentral()
