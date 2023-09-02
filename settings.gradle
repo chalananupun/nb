@@ -16,6 +16,7 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io" }
     }
 }
+
 rootProject.name = "nb_boiler_v2"
 include ':app'
 include ':mylibrary'
